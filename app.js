@@ -147,8 +147,6 @@ function getLocalStorage() {
     : [];
 }
 
-localStorage.setItem("orange", JSON.stringify());
-
 // SETUP ITEMS
 function setupItems() {
   let items = getLocalStorage();
